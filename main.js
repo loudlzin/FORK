@@ -9,14 +9,22 @@ const textoResultado = document.querySelector(".texto-resultado"); //constante t
 
 const perguntas = [ //abre uma lista de perguntas
     { //abre objeto de pergunta
-        enunciado: "Pergunta 1",
+        enunciado: "QUAL SUA COR FAVORITA?",
         alternativas: [
         { //alternativa 1
-            texto: "Sei que sei que lá",
+            texto: "PRETO",
             afirmacao: "Afirmação"
         },
         { //alternativa 2
-            texto: "Ah que não sei que sei que",
+            texto: "VERDE",
+            afirmacao: "Afirmação",
+        },
+        { //alternativa 3
+            texto: "AMARELO",
+            afirmacao: "Afirmação",
+        },
+        { //alternativa 4
+            texto: "VERMELHO",
             afirmacao: "Afirmação",
         },
     ]
