@@ -30,27 +30,43 @@ const perguntas = [ //abre uma lista de perguntas
     ]
     }, //fecha objeto de pergunta
     { //abre objeto de pergunta
-        enunciado: "Pergunta 2",
+        enunciado: "Qual sua comida favorita?",
         alternativas: [
         {
-            texto: "Que não sei que sei que lá",
+            texto: "Pizza",
             afirmacao: "Afirmação"
         },
         {
-            texto: "Sei lá sei que",
+            texto: "Strogonoff",
+            afirmacao: "Afirmação",
+        },
+        {
+            texto: "Frango frito",
+            afirmacao: "Afirmação",
+        },
+        {
+            texto: "hot dog",
             afirmacao: "Afirmação",
         },
     ]
     }, //fecha objeto de pergunta
     { //abre objeto de pergunta
-        enunciado: "Pergunta 3",
+        enunciado: "Se fosse para escolher uma profissão, qual escolheria?",
         alternativas: [
         {
-            texto: "Bla bla bla bla",
+            texto: "cientista",
             afirmacao: "Afirmação"
         },
         {
-            texto: "Endauldi agrummgit",
+            texto: "cozinheiro",
+            afirmacao: "Afirmação",
+        },
+        {
+            texto: "policial",
+            afirmacao: "Afirmação",
+        },
+        {
+            texto: "empreendedor",
             afirmacao: "Afirmação",
         },
     ]
