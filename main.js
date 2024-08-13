@@ -7,7 +7,7 @@ const caixaAlternativas = document.querySelector(".caixa-alternativas"); //const
 const caixaResultado = document.querySelector(".caixa-resultado"); //constante caixa-resultado do HTML
 const textoResultado = document.querySelector(".texto-resultado"); //constante texto-resultado do HTML
 
-const perguntas = [ //abre uma lista de perguntas
+const perguntas = [ 
     { 
         enunciado: "QUAL SUA COR FAVORITA?",
         alternativas: [
