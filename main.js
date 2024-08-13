@@ -112,7 +112,7 @@ function mostraPergunta() {
 
 //Essa função tem como cobjetivo exibir as alternativas da pergunta atual como botões e definir a ação ao clicar neles.
 function mostraAlternativas(){
-    for(const alternativa of perguntaAtual.alternativas) { // Itera sobre cada alternativa da pergunta atual.
+    for(const alternativa of perguntaAtual.alternativas) { 
         const botaoAlternativas = document.createElement("button"); //Cria um novo elemento de botão para cada alternativa.
         botaoAlternativas.textContent = alternativa.texto; //Define o texto do botão como o texto da alternativa.
         botaoAlternativas.addEventListener("click", () => respostaSelecionada(alternativa)); //Adiciona um ouvinte de eventos ao botão, que chama a função respostaSelecionada passando a alternativa selecionada quando o botão é clicado.
