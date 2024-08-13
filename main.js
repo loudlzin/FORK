@@ -8,7 +8,7 @@ const caixaResultado = document.querySelector(".caixa-resultado"); //constante c
 const textoResultado = document.querySelector(".texto-resultado"); //constante texto-resultado do HTML
 
 const perguntas = [ //abre uma lista de perguntas
-    { //abre objeto de pergunta
+    { 
         enunciado: "QUAL SUA COR FAVORITA?",
         alternativas: [
         { //alternativa 1
@@ -28,8 +28,8 @@ const perguntas = [ //abre uma lista de perguntas
             afirmacao: "Afirmação",
         },
     ]
-    }, //fecha objeto de pergunta
-    { //abre objeto de pergunta
+    }, 
+    { 
         enunciado: "Qual sua comida favorita?",
         alternativas: [
         {
@@ -49,8 +49,8 @@ const perguntas = [ //abre uma lista de perguntas
             afirmacao: "Afirmação",
         },
     ]
-    }, //fecha objeto de pergunta
-    { //abre objeto de pergunta
+    },
+    { 
         enunciado: "Se fosse para escolher uma profissão, qual escolheria?",
         alternativas: [
         {
@@ -70,8 +70,8 @@ const perguntas = [ //abre uma lista de perguntas
             afirmacao: "Afirmação",
         },
     ]
-    } //fecha objeto de pergunta
-]; //fecha lista de pergunta
+    } 
+]; 
 
 let atual = 0; //variável marcador de posição; começa pela pergunta 1
 let perguntaAtual; //variável que vai receber o texto
