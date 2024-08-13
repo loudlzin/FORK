@@ -11,19 +11,19 @@ const perguntas = [
     { 
         enunciado: "QUAL SUA COR FAVORITA?",
         alternativas: [
-        { //alternativa 1
+        {
             texto: "PRETO",
             afirmacao: "Afirmação"
         },
-        { //alternativa 2
+        {
             texto: "VERDE",
             afirmacao: "Afirmação",
         },
-        { //alternativa 3
+        {
             texto: "AMARELO",
             afirmacao: "Afirmação",
         },
-        { //alternativa 4
+        {
             texto: "VERMELHO",
             afirmacao: "Afirmação",
         },
@@ -73,26 +73,6 @@ const perguntas = [
     } 
 ]; 
 
-let atual = 0; //variável marcador de posição; começa pela pergunta 1
-let perguntaAtual; //variável que vai receber o texto
-
-function mostraPergunta(){ //função que faz aparecer a pergunta
-    perguntaAtual = perguntas[atual]; //declara a variável
-    caixaPerguntas.textContent = perguntaAtual.enunciado;
-    mostraAlternativas();
-}
-
-function mostraAlternativas(){
-    for(const alternativa of perguntaAtual.alternativas){
-        const botaoAlternativas = document.createElement("button");
-        botaoAlternativas.textContent = alternativa.texto;
-        botaoAlternativas.addEventListener("click", function(){
-            atual++;
-            mostraPergunta();
-        })
-        caixaAlternativas.appendChild(botaoAlternativas);
-    }
-}
 //Declaração de variáveis
 let atual = 0; //variável que mantem o inice da pergunta atual no array 'perguntas'
 let perguntaAtual; // variável que armazena a pergunta atual
