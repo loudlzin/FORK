@@ -13,19 +13,19 @@ const perguntas = [
         alternativas: [
         {
             texto: "PRETO",
-            afirmacao: "Afirmação"
+            afirmacao: "GUS FRING"
         },
         {
             texto: "VERDE",
-            afirmacao: "Afirmação",
+            afirmacao: "HEISENBERG",
         },
         {
             texto: "AMARELO",
-            afirmacao: "Afirmação",
+            afirmacao: "SAUL GOODMAN",
         },
         {
             texto: "VERMELHO",
-            afirmacao: "Afirmação",
+            afirmacao: "JESSY PINKMAN",
         },
     ]
     }, 
@@ -34,19 +34,19 @@ const perguntas = [
         alternativas: [
         {
             texto: "Pizza",
-            afirmacao: "Afirmação"
+            afirmacao: "HEISENBERG"
         },
         {
             texto: "Strogonoff",
-            afirmacao: "Afirmação",
+            afirmacao: "SAUL GOODMAN",
         },
         {
             texto: "Frango frito",
-            afirmacao: "Afirmação",
+            afirmacao: "GUS FRING",
         },
         {
             texto: "hot dog",
-            afirmacao: "Afirmação",
+            afirmacao: "JESSY PINKMAN",
         },
     ]
     },
@@ -55,19 +55,19 @@ const perguntas = [
         alternativas: [
         {
             texto: "cientista",
-            afirmacao: "Afirmação"
+            afirmacao: "HEISENBERG"
         },
         {
             texto: "cozinheiro",
-            afirmacao: "Afirmação",
+            afirmacao: "JESSY PINKMAN",
         },
         {
             texto: "policial",
-            afirmacao: "Afirmação",
+            afirmacao: "SAUL GOODMAN",
         },
         {
             texto: "empreendedor",
-            afirmacao: "Afirmação",
+            afirmacao: "GUS FRING",
         },
     ]
     } 
